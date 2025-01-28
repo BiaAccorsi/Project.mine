@@ -1,24 +1,178 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Castlevania theme</title>
-    <link rel="icon" type="Power_of_Sire_Icon.webp" href="imagens/Power_of_Sire_Icon.webp">
+    <title>Bibi's</title>
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <link rel="icon" type="cherry" href="/imagens/cherry_icon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <h1>Expaço sideral veyr</h1>
-    <h2>Vai oq?</h2>
-    <h3>tomandu</h3>
-    <p>Hoje aprendemos sobre programação e html </p>
-    <ul>
-        <li>
-            oi tudo bem?
+    <header>
+        <nav>
+            <a class="logo" href="/">Bibi's Dapieve</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+           
+            <ul class="nav-list">
+                <li><a href="/">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#proj">Projetos</a></li>
+                <li><a href="#courses">Cursos</a></li>
+        </nav>
+    </header>   
+    <main>
+        <div class="intro">
+            <div class="tittle">
+                <h1>Bianca</h1>
+                <h1>Dapieve</h1>
+            </div>
+        </div>
+        
+        <div id="sobre">
+            <div class="titulo">
+                <h2>Sobre</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus dolores autem enim eius iusto obcaecati 
+                    eveniet saepe! Modi architecto, nostrum asperiores 
+                    perferendis ullam commodi explicabo amet doloremque aut, 
+                    natus laborum.</p>
+            </div>
+        </div>
+
+        <div id="proj">
+            <div class="titulo">
+                <h2>Projetos</h2>
+            </div>
+
+            <section class="proj-cards">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Futuras Cientistas</h3>
+                            <img src="/imagens/FuturasCientistasLogo.webp" alt="Avatar" style="width: 250px; height: 250px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Futuras Cientistas</h3>
+                            <img src="imagens/FuturasCientistasfristday.jpeg" alt="Avatar" style="width: 250px; height: 250px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Design e Desenvolvimento de Games</h3>
+                            <img src="/imagens/design.games.png" alt="Avatar" style="width: 250px; height: 250px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Design e Desenvolvimento de Games</h3>
+                            <img src="imagens/palestra-game-design.jpg" alt="Avatar" style="width: 250px; height: 250px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Robotica</h3>
+                            <img src="/imagens/desing.roboctis.png" alt="Avatar" style="width: 250px; height: 250px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Robotica</h3>
+                            <img src="imagens/robotica2017.jpg" alt="Avatar" style="width: 250px; height: 250px;">
+                        </div>
+                    </div>
+                </div>
+               
+            </section>
+        </div>
+
+
+        <div id="courses">
+            <div class="subtitulo">
+                <h2>Cursos</h2>
+            </div>
+            <section class="courses-cards">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="/imagens/desing.CEI.png" alt="Avatar" style="width: 250px; height: 250px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="/imagens/CEI-fair.jpeg" alt="Avatar" style="width: 250px; height: 250px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="/imagens/Design sem nome.png" alt="Avatar" style="width: 250px; height: 250px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="/imagens/em breve 2.png" alt="Avatar" style="width: 250px; height: 250px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="/imagens/Design sem nome (1).png" alt="Avatar" style="width: 250px; height: 250px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="/imagens/Inserir um pouquinho de texto.png" alt="Avatar" style="width: 250px; height: 250px;">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+    <script src="/js/script.js"></script>
+   
+    <footer>
+    <h4>Entre em contato comigo logo abaixo!!</h4>
+    <form>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text">
+
+            <label for="email">Email</label>
+            <input id="email" type="text">
+
+            <label for="telefone">Telefone</label>
+            <input id="telefone" type="text">
+
+            <button type="submit" id="botaoEnviar">Enviar</button>
+    </form>
+     
+    <ul class="contato" id="contato">
+        <li class="item-contato">
+            <a href="https://www.instagram.com/dapievebibi_/" target="_blank">
+                <i class="fa-brands fa-instagram" style="color: rgb(255, 255, 255);"></i>
+                <h5>@Dapievebibi_</h5>
+            </a>
         </li>
-        <li><a href="https://www.youtube.com/watch?v=Q3K0TOvTOno" target="_blank"> new jeans how sweet</a>
+        <li class="item-contato">
+            <i class="fa-solid fa-phone" style="color: cadetblue;"></i>
+            <h5>+55 27 99309-4288</h5>
+        </li>
+        <li class="item-contato">
+            <a href="mailto:dapievehastenreiteraccorsi@gmail.com">
+                <i class="fa-solid fa-envelope" style="color: blueviolet;"></i>
+                <h5>dapievehastenreiteraccorsi@gmail.com</h5>
+            </a>
         </li>
     </ul>
-    <img src="imagens/transerir.jpg" alt="guaxinim dando oi">
+    
+   </footer>
 </body>
 </html>
