@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -13,11 +14,13 @@ html {
 }
 
 body {
-    background-color: aqua;
+    background-image: url(/imagens/mine.back.jpg);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    background-position: center;
+    background-size: contain;
 }
 
 a {
@@ -40,6 +43,14 @@ a:hover {
     width: 200px;
 }
 
+header {
+    height: 20%;
+    position: sticky;
+    top: 0px;
+    margin: 0;
+    z-index: 50;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -60,8 +71,9 @@ main {
     flex: 1;
 }
 
+
 .intro {
-    background-image: url(../imagens/back-img.jpg);
+    background-image: url(../imagens/desing.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -80,19 +92,19 @@ main {
     width: 700px;
 }
 
-
-
-.tittle h1 {
-    font-size: 100px;
-    line-height: 0.9;
-    text-shadow: 5px 5px 5px #23232e;
-    
+h1 {
+    font-size: 80px;
+    color: #ffffff;
+    text-shadow: 2px 2px 6px rgb(48, 95, 126);
 }
 
+
+
+
 #proj {
-    background-color: burlywood;
+    background-color: rgba(135, 187, 222, 0.39);
     margin-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -100,6 +112,8 @@ main {
     align-items: center;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 #proj img {
@@ -172,7 +186,8 @@ main {
 }
 
 #sobre {
-    background-color: chartreuse;
+    background-color:rgba(135, 187, 222, 0.39);
+    margin-top: 20px;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -197,10 +212,13 @@ main {
 }
 
 #courses {
-    background-color: cornflowerblue;
+    background-color: rgba(135, 187, 222, 0.39);
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -247,7 +265,7 @@ main {
 }
 
 footer {
-    background-color: cornsilk;
+    background-color: rgba(135, 187, 222, 0.39);
     display: flex;
     flex-direction: column;
     justify-content: center;
